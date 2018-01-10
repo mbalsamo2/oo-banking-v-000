@@ -19,7 +19,7 @@ class Transfer
     # binding.pry
     if valid? == false && status == "pending"
       self.status = "rejected"
-      "Transaction rejected. Please check your account balance."
+       return "Transaction rejected. Please check your account balance."
 
     elsif self.valid? == true && self.status != "complete" && sender.balance > amount
       self.sender.balance -= self.amount
