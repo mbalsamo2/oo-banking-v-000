@@ -17,9 +17,9 @@ class Transfer
   end
 
   def execute_transaction
-    if self.sender.valid? == false
-      "rejected"
-    end
+    # if self.sender.valid? == false
+    #   "rejected"
+    # end
   end
-  
+
 end
