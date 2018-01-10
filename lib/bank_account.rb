@@ -11,7 +11,7 @@ class BankAccount
     @status = status
   end
 
-  def deposit
+  def self.deposit
     binding.pry
     self.balance
   end
