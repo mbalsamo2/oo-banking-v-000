@@ -1,3 +1,5 @@
+require 'pry'
+
 class BankAccount
 
   attr_accessor :balance, :status
@@ -10,6 +12,7 @@ class BankAccount
   end
 
   def deposit
+
     self.balance
   end
 end
