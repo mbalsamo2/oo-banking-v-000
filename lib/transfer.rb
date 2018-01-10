@@ -15,4 +15,11 @@ class Transfer
     # binding.pry
     self.receiver.valid? && self.sender.valid?
   end
+
+  def execute_transaction
+    if self.sender.valid? == false
+      "rejected"
+    end
+  end
+  
 end
