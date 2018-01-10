@@ -16,7 +16,7 @@ class Transfer
   end
 
   def execute_transaction
-    binding.pry
+
     if self.sender.valid? == false
       "rejected"
     end
