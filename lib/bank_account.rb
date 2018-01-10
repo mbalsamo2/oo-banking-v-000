@@ -8,4 +8,8 @@ class BankAccount
     @balance = balance
     @status = status
   end
+
+  def deposit
+    self.balance
+  end
 end
