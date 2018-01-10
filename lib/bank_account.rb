@@ -12,7 +12,7 @@ class BankAccount
   end
 
   def deposit
-
+    binding.pry
     self.balance
   end
 end
